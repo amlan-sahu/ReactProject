@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function Logo({width = '100px'}) {
+function Logo({ width = '100px' }) {
     return (
-        <div>Logo</div>
-    )
+        <img src="/logo_blog.png" alt="Blog Logo" style={{ width }} />
+    );
 }
 
-export default Logo
+export default Logo;
